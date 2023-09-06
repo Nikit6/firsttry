@@ -1,0 +1,34 @@
+Changes -> add ->Commit
+
+1.Create new Repository on github
+2.cd .. in terminal
+3. mkdir localrepo
+4.cd localrepo
+5.git init
+6.Write code by creating files in vs folder
+7.git status
+8.In terminal type command git.add
+9.Then git commit -m "Any comment"
+
+Now we want to upload on github (ie we want to push)
+
+so,
+1.Go on github ->my repositories -> copy the link 
+2. Rum command git remote add origin <-link->
+3.git remote -v (verify remote)
+4.git branch (used to check branch)
+5. git branch -M main(new name)
+6.git push origin main
+
+init - Used to add new repo 
+
+---------------------------------------------------------
+
+To create new branch -
+git checkout -b <-new branch name->
+
+To delete branch name-
+git branch -d <-branch name->
+
+git push origin <-new branch name->
+
